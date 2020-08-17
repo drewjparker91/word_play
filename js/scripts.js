@@ -4,7 +4,6 @@ function testSplit(input) {
   let splitInput = input.split(" ");
   console.log(splitInput);
   return splitInput;
-  // plusThree(splitInput);   
 }
 
 function plusThree(input){
@@ -15,8 +14,9 @@ function plusThree(input){
     }
   })
   console.log(longerThanThree);
-  //longerThanThree.join();
-  return longerThanThree;
+  let final = longerThanThree.reverse().join(" ");
+   //longerThanThree.join(" ");
+  return final;
 };
 
 
